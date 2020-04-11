@@ -20,10 +20,13 @@ h5{
 }
 nav .btn{
     background-color: rgb(27, 27, 65);
-    margin-left: 1em;
-    margin-bottom: 0.5rem;
+    margin:0em auto;
     color: white;
+    margin-right: 1em;
+    padding: 0.5em;
 }
+
+
 .carousel-caption{
     top: 25em;
     color: white;
@@ -50,7 +53,8 @@ nav .btn{
     width: 10rem;
     height: 10rem;
 }
-a :hover{
+
+a:hover{
     text-decoration: none;
     color:rgb(155, 133, 177);
 }
@@ -58,15 +62,13 @@ a :hover{
     border: 0.1rem solid aliceblue;
     border-radius: 0.6rem;
 }
-#btn{
-    margin-bottom: 3rem; 
-    margin-right: 5.5rem;
-    margin-left: 5.5rem;
+.btn{
+    margin: 1em auto; 
 }
 .card button{
     border: 0.1rem solid aliceblue;
     background-color: aliceblue;
-    margin-bottom: 3rem; 
+    margin: 1em auto; 
 }
 header h6{
     border-right-color: 18px, black; 
@@ -76,9 +78,7 @@ header h6{
     margin-bottom: 10%; 
 }
 
-section{
-    background-color: aliceblue;
-}
+
 h3{
     padding: 5%;
     color: rgb(26, 26, 54);
@@ -92,18 +92,16 @@ h3{
     padding: 0%;
 }
 .card-group{
-margin-right: 10%;
-margin-left: 10%;
-margin-top: 5%;
+margin: 1em auto;
+
 
 }
 #ourservice{
     background-image: url("https://res.cloudinary.com/marykaystuff/image/upload/v1575972980/images/ji8th28r0f2frnwmanpj.jpg");
     background-repeat: no-repeat;
     display: block;
-    height: auto;
-    padding-top: 1rem;
-    padding-bottom: 5rem;
+    padding-top: 1em;
+    padding-bottom: 5em;
 
 }
 #ourservice img{
